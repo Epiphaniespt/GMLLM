@@ -1,0 +1,13 @@
+{
+    "base_graph_data_dir": "XXXX",
+    "handled_malicious_dir": "malicious_handled",
+    "handled_normal_dir": "handled_normal_all",
+    "malicious_json_dir": "malicious_call",
+    "normal_json_dir": "normal_call",
+    "vocab_dir": "vocab",
+    "checkpoint_dir": "./checkpoint",
+    "explain_logs_malicious": "explain_malicious_logs",
+    "explain_logs_normal": "explain_normal_logs",
+    "model_weights_file": "model.pth",
+    "cuda_device_id": 1
+  }

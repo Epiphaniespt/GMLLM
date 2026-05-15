@@ -1,0 +1,19 @@
+{
+  "paths": {
+    "src_dir": "placeholder",
+    "out_dir": "placeholder",
+    "synth_rules_out": "placeholder.json",
+    "cache_file": "placeholder.json"
+  },
+  "llm": {
+    "provider": "placeholder",
+    "model_name": "placeholder",
+    "temperature": 0.0,
+    "max_retries": 3,
+    "timeout_s": 30.0,
+    "auto_synthesize": true
+  },
+  "detector": {
+    "use_rule_fallback": true
+  }
+}

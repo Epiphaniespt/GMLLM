@@ -1,0 +1,33 @@
+{
+  "provider": "azure",
+  "paths": {
+    "root_directory": "XXXX",
+    "call_graph_base_path": "XXXX",
+    "mask_filename": "masked_adj_syn1_base_h64_o20_explainnode_idx_0graph_idx_0.npy",
+    "output_json_file": "llm_results.json",
+    "log_file": "llm_runner.log"
+  },
+  "run": {
+    "top_k_count": 100,
+    "max_node_name_length": 250,
+    "start_index": 0,
+    "end_index": null,
+    "max_workers": 5,
+    "api_request_timeout": 200
+  },
+  "azure": {
+    "api_version": "XXXX",
+    "deployment": "XXXX",
+    "endpoint": "XXXX",
+    "api_key_env": "AZURE_OPENAI_API_KEY"
+  },
+  "openai": {
+    "model": "XXXX",
+    "api_key_env": "OPENAI_API_KEY"
+  },
+  "local": {
+    "base_url": "XXXX",
+    "api_key": "XXXX",
+    "model": "XXXX"
+  }
+}
